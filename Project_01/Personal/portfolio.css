@@ -1,0 +1,22 @@
+body{
+    background-color: #F7CE8B;
+}
+h1{
+    color:#A89B85 ;
+    text-align: center;
+}
+header{
+    border-bottom: black solid;
+}
+div>p{
+    display: inline-block;
+    color:black;
+    background-color: #F5EBDB;
+    block-size: 250px;
+    text-decoration: black underline;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 55px;
+    margin: auto;
+    margin-left: 20px;
+}

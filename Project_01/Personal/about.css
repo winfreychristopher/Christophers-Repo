@@ -1,0 +1,46 @@
+body{
+    background-color: #3B9FA8;
+    padding: 20px;
+    overflow: auto;
+    color: #F7F7F7;
+}
+.gaming{
+    float: left;
+    box-shadow: -1px 3px black;
+}
+.top{
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+}
+.bottom{
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: left;
+    float: right;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline 3px solid black;
+}
+h2{
+    font-size: 40px;
+    text-decoration: underline 3px solid black;
+}
+header{
+    border-bottom: 2px black solid;
+    background-color: #E4F2F7;
+    box-shadow: 8px 3px black;
+    padding: 5px;
+}
+.work{
+    float: right;
+    height: 250px;
+    width: 450px;
+    box-shadow: -1px 3px black;
+    clear: right;
+    margin-bottom: 20px;
+}
+    

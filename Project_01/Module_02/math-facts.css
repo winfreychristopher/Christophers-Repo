@@ -1,0 +1,18 @@
+.math-card{
+         display: inline-block;
+        width: 100px; height: 175px;
+        font-family: monospace;
+        background-color: orange;
+        margin-right: 10px;
+        padding: 10px;
+        border: solid black;
+}
+.first-term,.second-term,.result{
+        font-size: 25px;
+        text-align: right;
+        margin-right: 5px;
+}
+.result{
+        border-top:  black solid;
+        border-top-width: 2px;
+}

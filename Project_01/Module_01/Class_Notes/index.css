@@ -1,0 +1,24 @@
+.parent{
+    font-size: 40px;
+    background-color: lightgreen;
+    padding: 10px;
+    position: relative;
+}
+.child-one{
+    background-color: lightcoral;
+}
+.child-two{
+    background-color: lightblue;
+}
+.child-three{
+    position: sticky;
+    background-color: lightseagreen;
+    top: 10px;
+}
+.wrapper{
+    padding: 30px;
+}
+img{
+    margin-left: 10px;
+    float: right;
+}

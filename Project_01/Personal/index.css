@@ -1,0 +1,19 @@
+main{
+    background-color:white;
+}
+body{
+    background-color:#5C8BAD;
+}
+
+header{
+    background-color:#BAE2FF ;
+    border-bottom: black solid;
+    padding: 10px;
+}
+section{
+    font-weight: bold;
+    font-size: 3em;
+    color: #FFEACC;
+    text-align: center;
+    padding: 25px;
+}

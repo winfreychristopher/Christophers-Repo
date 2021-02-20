@@ -1,0 +1,27 @@
+.featured{
+    width: 480px;
+    margin: auto;
+    background-color: #eeeeee;
+    color: #116666;
+    padding: 15px;
+}
+.featured h3{
+    margin-top: 0%;
+}
+article img{
+    float: right;
+    width: 128px;
+    height: 128px;
+    margin: 3%;
+}
+body{
+    background-color: #222222;
+}
+.featured a:link{
+    text-decoration: none;
+    color: #666;
+}
+.featured a:hover{
+    text-decoration: underline;
+    background-color: #cf8;
+}

@@ -1,0 +1,35 @@
+.chapter{
+        color: red;
+        font-family: sans-serif;
+        font-size: 30px;
+}
+.first{
+    color: #46b474;
+    font-family: monospace;
+    font-size: 20px;
+}
+.second{
+    color: rgb(74, 107, 246);
+    font-family: Imbue;
+    font-size: 3em;
+}
+.third{
+    color: rgb(194, 63, 135);
+    font-family: cursive;
+    font-size: 8pc;
+}
+.fourth{
+    color: teal;
+    font-family: yusei magic;
+    font-size: 4rem;
+}
+.fifth{
+    color: slateblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 52px;
+}
+.sixth{
+        color: rgb(157, 199, 233);
+        font-family: hachi maru pop;
+        font-size: 5rem;
+}

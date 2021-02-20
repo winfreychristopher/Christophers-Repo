@@ -1,0 +1,13 @@
+.message-form{
+    font-family: sans-serif;
+    background-color: silver;
+    width: 480px;
+    padding: 11px;
+    overflow: auto;
+    border: 1.5px black solid;
+    height: 360px;
+}
+.message-form-inputs> label,input,textarea{
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+*{ 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.user-profile{
+    width: 800px;
+    box-shadow: -2px 5px silver;
+    position: relative;
+}
+.headline{
+    padding: 10px;
+    background-color: rgb(195, 210, 231);
+    height: auto;
+    width:auto;
+}
+.name{
+    color: #000000;
+    font-size: 38px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    }
+.location{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.content{
+    background-color: rgb(210, 231, 238);
+    overflow: hidden;
+    padding: 10px;
+}
+.right{
+    width: 47%;
+    float: right;
+    clear: right;
+}
+.left{
+    width: 47%;
+    float: left;
+    clear: left;
+}
+h3{
+    border-bottom: black solid;
+    border-width: 1px;
+    font-size: 29px;
+}
+.avatar{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border-radius: 50%;
+    height: 45px;
+    width: 50px;
+}
