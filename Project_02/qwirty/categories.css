@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex: 0 0 100%;
+}
+.categories{
+    flex: 0 0 256px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.categories > a{
+    text-decoration: none;
+    font-family: Dosis;
+    text-align: center;
+    background-color: #4444bb;
+    margin-bottom: 10px;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.categories > a:hover{
+    box-shadow: 0 2px 5px -2px black;
+    color: goldenrod;
+}

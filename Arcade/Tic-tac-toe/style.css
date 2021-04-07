@@ -1,0 +1,96 @@
+#app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5ECD7;
+}
+
+header {
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    color: #2E3030;
+}
+
+header span {
+    color: #AD0909;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    font-family: 'Fredoka One';
+    text-decoration: underline 2px solid black;
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: #70231C;
+}
+
+.player1{
+    color: #08147A;
+}
+
+.resetbutton{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    color: #2E3030;
+}
+
+.playerScore {
+    margin-left: 75px;
+}
+
+.cpuScore {
+    margin-right: 75px;
+}
+
+.turncontrol {
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+
+}
+#board {
+    display: grid;
+    height: 35rem;
+    width: 35rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #2c3e50;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.cell {
+    display: flex;
+    background-color: #FF3333;
+    width: 95%;
+    height: 95%;
+    border: 2px solid #AD0909;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Reggae One';
+}

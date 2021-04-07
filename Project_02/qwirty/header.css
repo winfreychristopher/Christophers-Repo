@@ -1,0 +1,125 @@
+.main-nav{
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #4444bb;
+    justify-content: space-between;
+    height: 35px ;
+}
+.full-width{
+    display: flex;
+}
+.short-width{
+    display: none;
+}
+.sub-nav{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row ;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-nav ul li{
+    list-style-type: none;
+}
+.nav-list li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid white;
+    font-family: Dosis;
+}
+.nav-list li:last-of-type{
+    border-right: none;
+}
+.nav-list a{
+    color: white;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    color: goldenrod;
+}
+.search-form{
+    display: flex;
+    flex: 0 0 900px;
+}
+.search-form input{
+    display: flex;
+    width: 750px;
+    height: 30px;
+    justify-self: center;
+}
+.search-form button{
+    height: 30px;
+}
+.credit-offer{
+    display: flex;
+    flex: 1 0  150;
+    flex-direction: row;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-family: Dosis;
+    box-shadow: 0 2px 5px -2px black;
+}
+.material-icons{
+    background-color: #4444bb;
+    color: white;
+    border: none;
+}
+.material-icons:hover{
+    color: goldenrod;
+}
+.company-name{
+    font-size: 3.5rem;
+    color: #4444bb;
+    font-family: Original Surfer;
+    text-transform: uppercase;
+    margin-right: 50px;
+    text-shadow: 1px 1px 1px black ;
+}
+.company-name:hover{
+    color: goldenrod;
+    text-decoration: 2px underline #4444bb;
+}
+@media screen and (min-width: 768px){
+    .full-width{
+        display: flex;
+    }
+    .short-width{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .full-width{
+        display: none;
+    }
+    .short-width{
+        display: flex;
+    }
+    .sub-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sub-nav input{
+        width: 300px;
+    }
+    .search-form{
+        display: flex;
+        flex: 0 0 auto;
+        height: 45px;
+    }
+    .company-name{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

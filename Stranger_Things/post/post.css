@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#3E75A8;
+}
+
+.header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-family: sans-serif ;
+}
+.navigation{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: Bebas Neue;
+    cursor: pointer;
+}
+.post-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+    gap: 15px;
+    background: rgb(226, 226, 226);
+    padding: 10px;
+}
+.post-card {
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-family: Bebas Neue;
+    border-radius: 5px;
+}
+.price{
+    color: green;
+}
+.createpost{
+    background: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.createpost button{
+    box-sizing: border-box;
+    background-color: #76c2da;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-family: Bebas Neue;
+}
+.delete {
+    box-sizing: border-box;
+    background-color: rgb(189, 27, 27);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-family: Bebas Neue;
+}
+
+.search-container {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    width: 50%;
+}
+.profile-container{
+    background-color: rgb(226, 226, 226);
+}
+.messages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+    gap: 15px;
+    background: rgb(226, 226, 226);
+    padding: 10px;
+}
+.message-card{
+    background: rgb(135, 207, 204);
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-family: Bebas Neue;
+    border-radius: 5px;
+}
+.message-button{
+    box-sizing: border-box;
+    background-color: rgb(14, 26, 32);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-family: Bebas Neue;
+}
+.message-title{
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+}
+.message-description {
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    height: 100px;
+}
+.sendmessage-button {
+    box-sizing: border-box;
+    background-color: #4bc272;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: Bebas Neue;
+}

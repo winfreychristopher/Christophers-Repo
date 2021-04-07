@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ 
+ a{
+    width: max-content;
+    height: max-content;
+    top: 20vh;
+    position: relative;
+ }
+ button {
+    font-size: 8rem;
+    animation-name: color2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    background-color: tomato;
+ }
+ 
+ @keyframes color2 {
+    0% {
+      color: #dd9b1669;
+      text-shadow: 5px 2px 3px rgb(10, 10, 10);
+      letter-spacing: 0.1rem;
+      transform: scale(1.5);
+      
+    }
+    50% {
+      color: #e7b02f;
+      text-shadow: 5px 7px 9px rgb(10, 10, 10);
+      letter-spacing: 0.3rem;
+      
+    }
+    100% {
+      color: #dd9b1677;
+      text-shadow: 5px 2px 3px rgb(10, 10, 10);
+      letter-spacing: 0.1rem;
+      transform: scale(1.5);
+    }
+  }

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+
+.header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-family: sans-serif ;
+}
+.navigation{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: Bebas Neue;
+    background: #3E75A8;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+.post-box{
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    margin-top: 30px;
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-container h1 {
+    text-align: center;
+    font-family: Bebas Neue;
+}
+.form-container p {
+    margin-bottom: 5px;
+    font-family: Bebas Neue;
+
+}
+.user-item{
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+}
+.item-description {
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+}
+.item-price {
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+}
+.newpost {
+    box-sizing: border-box;
+    background-color: #76c2da;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: Bebas Neue;
+}
+.welcome-message{
+    display: flex;
+    justify-content: space-around;
+    font-family:  Bebas Neue;
+    font-size: 40px;
+}

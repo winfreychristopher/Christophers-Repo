@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="homepage.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="homepage.js"></script>
+    <script defer src="../post/app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Stranger's Things</h1>
+    </header>
+    <div class="navigation">
+        <span class="nav-home">Home</span><span class="nav-listings">Listings</span><span class="nav-login">Login</span>
+    </div>
+    <div class= welcome-message>Welcome To Stranger's Things</div>
+    <div class="welcome-message">Please login</div>
+    <form class="post-box">
+        <div class ="form-container hidden">
+            <h1>Create a post</h1>
+            <label><p>Name of item(s)</p></label>
+            <input type="text" class="user-item" placeholder="Item Name...">
+            <label><p>Description</p></label>
+            <input type="text" class="item-description" placeholder="Description of your item...">
+            <label><p>Price</p></label>
+            <input type="number" class="item-price" placeholder="Enter your price...">
+            <button type="submit" class="newpost">Create Post</button>
+        </div>
+    </form>
+</body>
+</html>
